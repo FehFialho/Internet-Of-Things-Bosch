@@ -1,1 +1,15 @@
-*.h
+# Ambientes Virtuais
+.venv/
+venv/
+ENV/
+
+# Configurações do VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Arquivos de ambiente sensíveis
+.env
+.h
