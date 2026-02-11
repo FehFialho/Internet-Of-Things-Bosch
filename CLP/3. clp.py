@@ -23,7 +23,7 @@ with plc:
     position = 0
     plc.write_by_name("GVL.position", 0, pyads.PLCTYPE_INT)
     gripperStatus = 0
-    plc.write_by_name("GVL.gripperStatus", 0, pyads.PLCTYPE_INT)
+    plc.write_by_name("GVL.gripperStatus", 1, pyads.PLCTYPE_INT)
 
     running = True  # Flag Loop
 
