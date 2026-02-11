@@ -1,3 +1,4 @@
+# remember to install pyads with pip!
 import pyads
 
 TARGET_AMS_NET_ID = '192.168.56.1.1.1'
